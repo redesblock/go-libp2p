@@ -61,3 +61,5 @@ require (
 	google.golang.org/grpc v1.40.0 // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
 )
+
+replace github.com/libp2p/go-tcp-transport => github.com/redesblock/go-tcp-transport v0.4.1
